@@ -3,7 +3,7 @@
 pipeline {
     agent any
     environment {
-        BASEDIR = 'gitlab.oifitech.com/wangoo'
+        BASEDIR = 'github.com/wangoo'
         PROJECT = "${env.GIT_URL}".substring("${env.GIT_URL}".lastIndexOf('/') + 1).replace(".git", "")
     }
     stages {
