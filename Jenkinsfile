@@ -4,7 +4,7 @@ pipeline {
     agent any
     environment {
         BASEDIR = 'github.com/wangoo'
-        PROJECT = "${env.GIT_URL}".substring("${env.GIT_URL}".lastIndexOf('/') + 1).replace(".git", "")
+        PROJECT = 'golang-jenkins-docker'
     }
     stages {
         stage('Build Stage') {
