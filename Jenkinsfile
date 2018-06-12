@@ -3,7 +3,7 @@
 pipeline {
     agent any
     environment {
-        BASEDIR = 'github.com/wangoo'
+        BASEDIR = 'github.com/wongoo'
         PROJECT = 'golang-jenkins-docker'
     }
     stages {
